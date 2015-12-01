@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BA4F611C-8402-41C0-9BFA-4DD6A51E31BF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pletharia</RootNamespace>
+    <AssemblyName>Pletharia</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="Terraria">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Terraria\Terraria.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dusts\Staves\AmberDust.cs" />
+    <Compile Include="Dusts\Staves\AmethystDust.cs" />
+    <Compile Include="Dusts\Staves\TopazDust.cs" />
+    <Compile Include="Dusts\Staves\SapphireDust.cs" />
+    <Compile Include="Dusts\Staves\RubyDust.cs" />
+    <Compile Include="Dusts\Staves\DiamondDust.cs" />
+    <Compile Include="Dusts\Staves\EmeraldDust.cs" />
+    <Compile Include="Globals\CustomGlobalProjectile.cs" />
+    <Compile Include="Globals\GlobalFunctionality.cs" />
+    <Compile Include="Items\Accessories\BurningRose.cs" />
+    <Compile Include="Items\Accessories\FossilHead.cs" />
+    <Compile Include="Items\Accessories\FrostyMittens.cs" />
+    <Compile Include="Items\Accessories\MermaidsNecklace.cs" />
+    <Compile Include="Items\Accessories\Rings\AquaRing.cs" />
+    <Compile Include="Items\Accessories\Rings\FireproofRing.cs" />
+    <Compile Include="Items\Accessories\Rings\FrostRing.cs" />
+    <Compile Include="Items\Accessories\Rings\HeavyRing.cs" />
+    <Compile Include="Items\Accessories\Rings\PowerlessRing.cs" />
+    <Compile Include="Items\Accessories\Rings\ReinforcedRing.cs" />
+    <Compile Include="Items\Accessories\Rings\RubberRing.cs" />
+    <Compile Include="Items\Accessories\Rings\ShadowRing.cs" />
+    <Compile Include="Items\Accessories\ThunderBoots.cs" />
+    <Compile Include="Items\Accessories\TornadoAnklet.cs" />
+    <Compile Include="Globals\CustomGlobalItem.cs" />
+    <Compile Include="Items\Weapons\Staves\SuperAmberStaff.cs" />
+    <Compile Include="Items\Weapons\Staves\SuperAmethystStaff.cs" />
+    <Compile Include="Items\Weapons\Staves\SuperDiamondStaff.cs" />
+    <Compile Include="Items\Weapons\Staves\SuperEmeraldStaff.cs" />
+    <Compile Include="Items\Weapons\Staves\SuperRubyStaff.cs" />
+    <Compile Include="Items\Weapons\Staves\SuperSapphireStaff.cs" />
+    <Compile Include="Items\Weapons\Staves\SuperTopazStaff.cs" />
+    <Compile Include="Pletharia.cs" />
+    <Compile Include="Projectiles\Staves\AmberShard.cs" />
+    <Compile Include="Projectiles\Staves\AmethystShard.cs" />
+    <Compile Include="Projectiles\Staves\DiamondShard.cs" />
+    <Compile Include="Projectiles\Staves\EmeraldShard.cs" />
+    <Compile Include="Projectiles\Staves\RubyShard.cs" />
+    <Compile Include="Projectiles\Staves\SapphireShard.cs" />
+    <Compile Include="Projectiles\Staves\TopazShard.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Buffs\" />
+    <Folder Include="NPCs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build.txt" />
+    <Content Include="Dusts\Staves\AmberDust.png" />
+    <Content Include="Dusts\Staves\AmethystDust.png" />
+    <Content Include="Dusts\Staves\DiamondDust.png" />
+    <Content Include="Dusts\Staves\EmeraldDust.png" />
+    <Content Include="Dusts\Staves\RubyDust.png" />
+    <Content Include="Dusts\Staves\SapphireDust.png" />
+    <Content Include="Dusts\Staves\TopazDust.png" />
+    <Content Include="Items\Accessories\BurningRose.png" />
+    <Content Include="Items\Accessories\FrostyMittens.png" />
+    <Content Include="Items\Accessories\ThunderBoots.png" />
+    <Content Include="_Info\TODO.txt" />
+    <Content Include="Items\Accessories\FossilHead.png" />
+    <Content Include="Items\Accessories\MermaidsNecklace.png" />
+    <Content Include="Items\Accessories\Rings\AquaRing.png" />
+    <Content Include="Items\Accessories\Rings\FireproofRing.png" />
+    <Content Include="Items\Accessories\Rings\FrostRing.png" />
+    <Content Include="Items\Accessories\Rings\HeavyRing.png" />
+    <Content Include="Items\Accessories\Rings\PowerlessRing.png" />
+    <Content Include="Items\Accessories\Rings\ReinforcedRing.png" />
+    <Content Include="Items\Accessories\Rings\RubberRing.png" />
+    <Content Include="Items\Accessories\Rings\ShadowRing.png" />
+    <Content Include="Items\Accessories\TornadoAnklet.png" />
+    <Content Include="Items\Weapons\Staves\SuperAmberStaff.png" />
+    <Content Include="Items\Weapons\Staves\SuperAmethystStaff.png" />
+    <Content Include="Items\Weapons\Staves\SuperDiamondStaff.png" />
+    <Content Include="Items\Weapons\Staves\SuperEmeraldStaff.png" />
+    <Content Include="Items\Weapons\Staves\SuperRubyStaff.png" />
+    <Content Include="Items\Weapons\Staves\SuperSapphireStaff.png" />
+    <Content Include="Items\Weapons\Staves\SuperTopazStaff.png" />
+    <Content Include="Projectiles\Staves\AmberShard.png" />
+    <Content Include="Projectiles\Staves\AmethystShard.png" />
+    <Content Include="Projectiles\Staves\DiamondShard.png" />
+    <Content Include="Projectiles\Staves\EmeraldShard.png" />
+    <Content Include="Projectiles\Staves\RubyShard.png" />
+    <Content Include="Projectiles\Staves\SapphireShard.png" />
+    <Content Include="Projectiles\Staves\TopazShard.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

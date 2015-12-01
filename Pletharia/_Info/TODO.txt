@@ -1,0 +1,26 @@
+﻿FireproofRing: 
+	-50% "On Fire!" Duration, -33% "Cursed Inferno" Duration.
+
+ReinforcedRing:
+	+50% Chance To Resist "Stoned" And Resistance To Suffocation (Falling Blocks Still Hurt), +20% Fall DMG
+
+RubberRing:
+	-25% "Electrified" Duration, lose Breath 15% Faster, +20% Fall DMG
+
+HeavyRing:
+	+1 EXTRA DEF When Moving At 50 M.P.H Or Faster.
+
+AquaRing:
+	+50% Chance Of Infliction Of "Chilled", "Frostburn", And "Frozen", And All 3 Debuffs Last For 5 Seconds Longer.
+
+ShadowRing:
+	-33% "Shadowflame" Duration, +10% Chance Of Dodging Attacks, +66% Duration Of "Chaos State", "Cursed", "Silenced", And "Feral Bite".
+
+FrostRing:
+	+10% Chance Of Weapons Inflicting "Frostburn" If They Already Inflict It, +20% Duration Of "On Fire!", "Cursed Inferno", And "Shadowflame".
+
+MermaidsNecklace:
+	Projectiles Are Not Affected By Liquids, "Frozen" Duration Doubled.
+
+FrostyMittens:
+	+10% Chance Of Any Weapon Inflicting "Frostburn".
