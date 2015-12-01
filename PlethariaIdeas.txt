@@ -9,8 +9,11 @@ Items:
 				~ I was always dissapointed by the fact that 'legendary weapons' such as the Maramusa (which is a legendary sword from a game called Chrono Trigger), Dark Edge, etc were quickly surpassed by crafted weapons and others.. well 	no more!
 				~ This would add a way to unleash a weapons true power. Should be something unique, such as a ritual or unique crafting or something.. in order to unleash the true power of these weapons. Become much stronger and have special 	 properties.
 		--Armor
+		
+		--Dev Items
+			+Each of us will have a complete set of armor, wings, and maybe even a yo-yo
 	-Other
-		-- Celestial Binder: An otherworldly item possessing incredible properties that can bind together certain powerful items. Rumor has it that it was concieved by an other-worldly inventor.
+		-- Celestial Binder: An otherworldly item possessing incredible properties that can bind together certain powerful items. Rumor has it that it was concieved by a Roman God by the name of Vulcan. Will add Vulcan armor and repeater to bring some stuff from Console/Mobile to PC version of the game.
 General Enemies:
 Bosses:
 	-Mecha-King Slime: Always wondered why all of the other bosses got the mechanical treatment, so why not King Slime? Introducing Mecha-King Slime... (A mid-game boss).
