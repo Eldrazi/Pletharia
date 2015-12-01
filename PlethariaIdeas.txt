@@ -1,0 +1,55 @@
+Ideas for Pletharia:
+
+Items:
+	-Accessories
+	-Equipment
+		--Weapons
+			+ Yo-Yos: We MUST do something with Yo-Yos.. possibly one of the most creative weapons in this type of game, I would love to do something more and expand their uses.
+			+ AwakenedTrue/Legendary/etc.. Weapons: There is a deep power sleeping inside some of Terarrias well known weapons, and this power has remained dormant, until now... 
+				~ I was always dissapointed by the fact that 'legendary weapons' such as the Maramusa (which is a legendary sword from a game called Chrono Trigger), Dark Edge, etc were quickly surpassed by crafted weapons and others.. well 	no more!
+				~ This would add a way to unleash a weapons true power. Should be something unique, such as a ritual or unique crafting or something.. in order to unleash the true power of these weapons. Become much stronger and have special 	 properties.
+		--Armor
+	-Other
+		-- Celestial Binder: An otherworldly item possessing incredible properties that can bind together certain powerful items. Rumor has it that it was concieved by an other-worldly inventor.
+General Enemies:
+Bosses:
+	-Mecha-King Slime: Always wondered why all of the other bosses got the mechanical treatment, so why not King Slime? Introducing Mecha-King Slime... (A mid-game boss).
+		--King Slime riding in a mecha suit, because why not?
+		--Half of the slime itself is mechanical, half is, well..slimey.
+		--Phase 1: King Slime is in large mechanical suit, has lasers, ground pound, and can shoot out robot slimes, as well as damaging gray goo!
+		--Phase 2: The mecha suit has been destroyed! Now players must deal with the wrath of the mechanically enhanced King Slime! Similar AI to regular King Slime, except since he is half robot, he can use lasers, etc.. 
+		--Drops (Hurray for loot!)
+			+ Mecha-King Slime Mask
+			+ Mecha-King Slime Trophy
+			+ Grey-Goo Gun: A gun that can use Grey-Goo filled ammo to spray goo filled with nanobots on your enemies! (New crafting table for this new ammo? Idea needs more fleshed out..)
+			+ Baby Mechanical Slime: A tiny mechanical slime pet! Just for you!
+			+ Mecha-Suit Blueprints: Unlocks the ability to craft a mecha-suit mount! Could either be very large, similar to the boss, or could be little bigger than the player's sprite (Think Power Armor from Fallout or the Iron Main suit).
+				Allows limited flight, a light source built into the mount, and enemies take damage when you jump on them due to the suit's weight.
+			+ Vial of Pure Grey Goo: A vial of the most powerful nanobots, awaiting your command.. Could be used to upgrade certain weapons (Maramusa, Dark Edge, etc..) into a new version that has special properties. Could have many uses.
+				Potentially gives players a reason to go back and fight older bosses? (Crafting material for mid-game AND late-game items?)
+NPCS:
+	-Monster Hunter: A mysterious individual from a far away land who has brought unique items...for those he deems worthy.
+		-- Similar to the Angler; This NPC will give out quests that essentialy ask the player to kill a certain amount of a given enemy OR obtain a certain rare monster drop and turn it in (There will be new drops added for this, such as a 	Slime Heart).
+		-- Once a player has finished said quest and turns it in, they will be rewareded with Monster Tokens (Can either be an actual item, or a special value synced to the player and not a physical item).
+		-- Monster Tokens may then be exchanged in a special shop where that is the only accepted currency. Items for sale can include gear, accessories, tiles, vanity items, etc. 
+		-- As the player progresses farther into the game (defeating more bosses) the Monster Hunter will venture back to his homeland to stock up on even more items a player can purchase!
+		-- And of course, as the game progresses, tasks become more difficult as well.
+
+World Generation: (Currently not possible with tModLoader 0.6, but always possible in the future with v0.8 ModWorld hooks!)
+
+Mechanics:
+	- Terrabots: A new unique feature that allows one to invent and craft mini helper bots! These bots will be highly customizable and are meant to grow with the player. 
+		-- A new (pet or minion or both?) that is designed to grow with the player, giving the player access to craft and build a very rudimentary Terrabot early game.
+		-- There will be new crafting stations, and as the player progresses, they can build more and more advanced ones, allowing more advanced Terrabot upgrades.
+		-- These Terrabots will be able to be customized with different parts and modules that will effect how they behave and how they can help the player. 
+			Modules could include..
+			+ Infared Ore Detector: A module that allows your terrabot to detect ores around him similar to a speluncher potion! Has a much much shorter range however. Could always be upgraded!
+			+ Plasma Cannon Arm: A ranged based weapon capable of firing a beam of plasma, burning your foes! (Equip as both a right and left arm for even more destruction!)
+			+ Integrated Teleportation Unit: Able to teleport you to a friend whos also online! Just like a teleportation potion!
+			+ Minigun: While using both arms, this devestating weapon shreds foes with a barrage of bullets.
+			+ Storage Compartment (Various Sizes): Have your Terrabot help carry your burden! Deep in the depths of Hell but have no intention of turning back and have a full inventory? Not anymore!
+			+ Enemy Radar: Enemies within a certain radius glow a vibrant color! Helps for scouting ahead.
+			+ Vibrant Headlamp: Afraid of the dark? Allow your Terrabot to help! This would allow your Terrabot to provide light for you!
+		-- These are just some generic examples of the possibilites with this! There are countless concepts that could be implemented as a module for your Terrabot.
+		-- Each upgrade/module could change the appearence of the bot as well, turning your early game rust bucket into a technological marvel later in the game.
+		-- Modules can be crafted, dropped from enemies/bosses, bought, and even given as quest rewards! This system has infinite possibilites, and depending how it evolves, could potentially even become its own playstyle! (Terrabot Inventor)
