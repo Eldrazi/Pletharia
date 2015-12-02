@@ -1,0 +1,26 @@
+Terarria Engineering Playstyle Design Document Draft
+
+General Concepts:
+	- New playstyle focusing on the concept of Terrabots, custom crafted robotic minions that will fight for the player.
+	- Introduces Cybernetic Armor, a new type of defense gear for Engineers.
+	- Introduces new support weapons that allow an engineer to give buffs to themselves and to their fellow Terrabots. (Possibly other energy beam styled weaposn)
+	- Introduces the ability to create base defense systems (TBD)
+	- More to be determined!
+	
+Terrabots
+	- Crafting the Terrabot:
+		-- Customized minions crafted by the player in a unique crafting interface, designed specificially for this feature.
+		-- Crafted with the following Terrabot component types: (Detailed component list found further down)
+			+ Core: The 'heart' of the Terrabot. Different cores will provide the bot with different properties, bonuses, etc..
+			+ Chassis: Determines the size of the bot (small, medium, large)
+			+ Modules: Modules determine the special functionality for your Terrabots, including different types of damage, unique bonuses for the player and the bot, etc.
+			+ Visor Unit: The visor unit can provide special buffs to the player relating to vision.
+			+ Movement Unit: The bottom of the bot, determines method of moving (hovering device or legs)
+		-- Players use special crafting tile to construct Terrabot..
+			+ New crafting tile will be larger than others, as building a Terrabot is no small feat!
+			+ Once the player has clicked on an interface, the interface will appear on the screen, much like the inventory screen.
+			+ The new crafting interface will have designated slots for all components.
+			+ Dependent on chassis, the interface will dynamically redraw to show the correct number of module slots for the chassis that is inserted (1 module for small, 2 for medium, etc..)
+			+ Once all required components are inserted (Modules do not have to be completely filled to craft a bot!) your very own Terrabot will be in the output slot!
+			+ Idea: Once a Terrabot has been built, you may use a different crafting station reconfigure your Terrabot (add and exchange components)
+			
