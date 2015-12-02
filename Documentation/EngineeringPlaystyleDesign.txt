@@ -1,4 +1,5 @@
 Terarria Engineering Playstyle Design Document Draft
+REVISION A (Please update this if you change the draft!)
 
 General Concepts:
 	- New playstyle focusing on the concept of Terrabots, custom crafted robotic minions that will fight for the player.
@@ -14,8 +15,9 @@ Terrabots
 			+ Core: The 'heart' of the Terrabot. Different cores will provide the bot with different properties, bonuses, etc..
 			+ Chassis: Determines the size of the bot (small, medium, large)
 			+ Modules: Modules determine the special functionality for your Terrabots, including different types of damage, unique bonuses for the player and the bot, etc.
+			+ Arm Units: These will determine the Terrabot's primary method of destruction!
 			+ Visor Unit: The visor unit can provide special buffs to the player relating to vision.
-			+ Movement Unit: The bottom of the bot, determines method of moving (hovering device or legs)
+			+ Movement Unit: The bottom of the bot, determines method of moving (hovering device or legs); also can influence movement speed
 		-- Players use special crafting tile to construct Terrabot..
 			+ New crafting tile will be larger than others, as building a Terrabot is no small feat!
 			+ Once the player has clicked on an interface, the interface will appear on the screen, much like the inventory screen.
@@ -23,4 +25,27 @@ Terrabots
 			+ Dependent on chassis, the interface will dynamically redraw to show the correct number of module slots for the chassis that is inserted (1 module for small, 2 for medium, etc..)
 			+ Once all required components are inserted (Modules do not have to be completely filled to craft a bot!) your very own Terrabot will be in the output slot!
 			+ Idea: Once a Terrabot has been built, you may use a different crafting station reconfigure your Terrabot (add and exchange components)
-			
+		-- Component Design List (Subject to change) 
+			+ Cores:
+				~ Fragile Energy Spark: Can barely keep the Terrabot standing up! - No bonuses (This is the lowest of the low)
+				~ Fragile Energy Sliver: Little better than the spark, but can at least get the bot moving! - 5% Movement Speed Increase
+				~ Fragile Energy Shard: Getting into a more reliable sense of power now! 
+			+ Chassis (Small, medium, and large) (Very generic list, subject to change):
+				~ Iron/Lead
+				~ Hardened (Obsidian fused with Iron/Lead)
+				~ Demonite/Crimtane
+				~ Meteorite
+				~ Cobalt/Palladium
+				~ Mythril/Orichalum
+				~ Molten (Hellstone)
+				~ Admantite/Titanium
+				~ Hallowed
+				~ Luminite 
+				~ More TBD
+			+ Visor Units:
+				~ Enemy Radar: All enemies on screen but not yet seen (underground for instance) will glow a 		blurry bright color. Upgradable; The better the upgrade, the less blurry , so you can see 		the actual enemy.
+				~ Infared Ore Detector: Just like a speluncher potion, although limited to very range to 			Terrabot's physical location. Upgradable; range will increase through upgrades
+				~ Headlamp: A basic light that will allow you to see in the dark. Upgradable; Increases the 		brightness of the light.
+			+ Modules: 
+				~Teleportation Module: Have your Terrabot teleport you to a teleport pad anywhere on the map, 		for a lot of power of course (Large cooldown) Upgradable (multiplayer); Module now operates 	as a teleport potion, allowing you to teleport to other players! (Even larger cooldown).
+				~Targeting Device: Increases the Engineers accuracy with certain weapons by relaying enemy 			information! Upgradable; Larger increase in accuracy.
