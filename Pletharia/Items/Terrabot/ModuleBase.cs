@@ -12,11 +12,44 @@ namespace Pletharia.Items.Terrabot
         {
             None,
             Booster,
-            UtilityWeapon
+            Utility,
+            Visor,
+            Mobility,
+            WeaponSystem
             // More to be added, but for testing purposes this should be enough.
         }
-        public ModuleType moduleType;
 
+        public static bool isModuleRequired(ModuleBase module)
+        {
+            bool required;
+            switch (module.moduleType)
+            {
+                case ModuleType.None:
+                    required = false;
+                    break;
+                case ModuleType.Booster:
+                    required = false;
+                    break;
+                case ModuleType.Utility:
+                    required = false;
+                    break;
+                case ModuleType.Visor:
+                    required = true;
+                    break;
+                case ModuleType.Mobility:
+                    required = true;
+                    break;
+                case ModuleType.WeaponSystem:
+                    required = true;
+                    break;
+                default:
+                    required = false;
+                    break;
+            }
+            return required;
+        }
+        
+        public ModuleType moduleType;
         public float damageBoost;
         public float speedBoost;
 

@@ -21,7 +21,7 @@ namespace Pletharia.Items.Terrabot
         public ModuleBase[] modules;
 
         // Return the module count that is suitable for this chassis (uses the values set in the ChassisType enum).
-        protected int maxModuleCount
+        protected int maxOptionalModuleCount
         {
             get { return (int)chassisType; }
         }
@@ -44,7 +44,7 @@ namespace Pletharia.Items.Terrabot
         public override void SetDefaults()
         {
             SetChassisData();
-            modules = new ModuleBase[maxModuleCount];
+            modules = new ModuleBase[maxOptionalModuleCount];
         }
         
         /// <summary>
@@ -63,6 +63,7 @@ namespace Pletharia.Items.Terrabot
             this.chassisType = ChassisType.None;
         }
 
+        
         public override bool CanUseItem(Player player)
         {
             if (totalEnergyInput > core.energyOutput)
