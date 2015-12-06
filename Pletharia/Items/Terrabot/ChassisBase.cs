@@ -11,7 +11,7 @@ namespace Pletharia.Items.Terrabot
         public enum ChassisType
         {
             None = 0,
-            Small = 1, 
+            Small = 1,
             Medium = 2,
             Large = 3
         }
@@ -29,15 +29,32 @@ namespace Pletharia.Items.Terrabot
         // Returns the total value of the energy input of all the modules together.
         protected float totalEnergyInput
         {
-            get 
-            { 
+            get
+            {
                 float r = 0;
                 for (int i = 0; i < modules.Length; ++i)
                 {
-                    if(modules[i] != null)
+                    if (modules[i] != null)
                         r += modules[i].energyInput;
                 }
-                return r; 
+                return r;
+            }
+        }
+        public float totalDamageBoost
+        {
+            get
+            {
+                float returnValue = 1;
+
+                if (core != null)
+                    returnValue += core.damageBoost;
+                for (int i = 0; i < modules.Length; ++i)
+                {
+                    if (modules[i] != null)
+                        returnValue += modules[i].damageBoost;
+                }
+
+                return returnValue;
             }
         }
 
@@ -46,10 +63,10 @@ namespace Pletharia.Items.Terrabot
             SetChassisData();
             modules = new ModuleBase[maxOptionalModuleCount];
         }
-        
+
         /// <summary>
-        /// This is the function that is to be overridden by child classes. This is to make sure that the modules array
-        /// is always set (and the user can change the size of the Chassic inside the SetChassisData).
+        /// This is the function that is to be overridden by child Chassis classes. This is to make sure that the modules array
+        /// is always set (and the user can change the size of the Chassis inside the SetChassisData).
         /// </summary>
         protected virtual void SetChassisData()
         {
@@ -63,7 +80,6 @@ namespace Pletharia.Items.Terrabot
             this.chassisType = ChassisType.None;
         }
 
-        
         public override bool CanUseItem(Player player)
         {
             if (totalEnergyInput > core.energyOutput)

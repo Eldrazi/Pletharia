@@ -22,20 +22,34 @@ namespace Pletharia.Items.Terrabot
         
         public override void SetDefaults()
         {
-            base.SetDefaults();
-            this.moduleType = ModuleType.WeaponSystem;
-            item.name = "Weapon Base";
+            SetWeaponData();
 
             if(weaponType == WeaponType.Melee)
             {
                 item.melee = true;
             }
-            else if(weaponType == WeaponType.Ranged) //Weapon is ranged
+            else if(weaponType == WeaponType.Ranged) // Weapon is ranged
             {
                 item.ranged = true;
                 item.noMelee = true;
             }
             weaponType = WeaponType.None;
+        }
+
+        /// <summary>
+        /// The actual function that needs to be overriden (instead of SetDefaults) since 
+        /// visuals will be handled automatically then.
+        /// </summary>
+        public virtual void SetWeaponData()
+        {
+            item.name = "Weapon Base";
+            item.width = 20;
+            item.height = 20;
+            item.toolTip = "A standard issue Weapon without functionality";
+            item.value = Item.buyPrice(0, 0, 0, 0);
+            item.rare = -1;
+
+            this.moduleType = ModuleType.WeaponSystem;
         }
     }
 }

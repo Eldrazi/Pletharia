@@ -66,6 +66,9 @@
     <Compile Include="Items\Accessories\ThunderBoots.cs" />
     <Compile Include="Items\Accessories\TornadoAnklet.cs" />
     <Compile Include="Globals\CustomGlobalItem.cs" />
+    <Compile Include="Items\Terrabot\ChassisBase.cs" />
+    <Compile Include="Items\Terrabot\CoreBase.cs" />
+    <Compile Include="Items\Terrabot\ModuleBase.cs" />
     <Compile Include="Items\Weapons\Staves\SuperAmberStaff.cs" />
     <Compile Include="Items\Weapons\Staves\SuperAmethystStaff.cs" />
     <Compile Include="Items\Weapons\Staves\SuperDiamondStaff.cs" />
