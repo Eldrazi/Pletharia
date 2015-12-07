@@ -1,0 +1,55 @@
+Terrabot Component Draft II
+	Everything is Subject to Change dependent on Team Input.
+	The Crafting Station to craft components will be wrapped in '{}'
+
+Crafting Stations (Will be expanded for crafting new player gear, items, and weapons)
+	- Engineering Workbench: Used for the creation of modules and components for the Terrabot.
+		-- Beginners Engineering Bench (Tier I): 10 Iron Bars/Lead Bars, 1 Wooden Workbench
+	
+	- Terrabot Building Frame: Used to build the actual Terrabot once all components have been gathered.
+		-- Medium Terrabot Frame:
+		-- Small Terrabot Frame:
+		-- Large Terrabot Frame:
+	
+	- Electronics Etching Station: Used to create electronics used in Terrabot components and modules.
+		-- Iron/Lead Etching Station (Tier I): 10 Iron/Silver Bars, Simple Etching Laser
+	
+	- Chemistry Table: Used to create chemicals for use in crafting electronics and more.
+		-- Chemistry Table (Tier I): 1 Workbench, 3 Glass Bottles, 5 Glass 
+		-- Laboratory Table (Tier II):
+	
+	- Gem Carving Station: Used to cut gems into different shapes for crafting purposes.
+		-- Silver/Tungsten Gem Carver (Tier I, can carve Topaz/Amethyst):
+		-- Meteorite Gem Station (Tier II, can carve Ruby/Sapphire/Emerald):
+		-- Mythril/Orichilum Gem Carver (Tier III, can carve Amber/Diamond):
+
+Terrabot Components
+	- Energy Cores
+		-- Silver/Tungsten Topaz Core: 6 Silver Bars, 4 Pear Cut Topaz, ??? Power output: 125 Loks {Beginner's Engineering Bench}
+		-- Silver/Tungsten Amethyst Core: 6 Silver Bars, 4 Pear Cut Amethyst, ??? Power output: 125 Loks {Beginner's Engineering Bench}
+
+	- Chassis
+		-- Lokwork Chassis
+
+	- Computational Units
+	-- Lokwork Processing Unit X100 (LPU): Simple Silicon Wafer, Weak Etching Solution, 2 Silver Bars {Iron/Lead Etching Station}
+
+	- Weapon Systems
+		-- Revolving Lokgun:
+
+	- Mobility Systems
+		-- Mechanim Legs: 
+
+	- Visor Units
+		-- Basic Glass Visor
+
+Plants and Farming
+
+Misc (Includes module crafting materials, electronics, etc...)
+	- Electronics
+		-- Simple Silicon Wafer: 25 Sand {Vanilla Furnace}
+		-- Simple Etching Laser: 2 Silver, 1 Pear Cut Amethyst/Topaz {Beginners Engineering Bench}
+
+	- Gemstone Carving List
+		-- Pear Cut (All Gemstones, with correct Gem Cutting Station)
+
